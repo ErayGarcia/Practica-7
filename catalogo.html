@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú del Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #afdbf5;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #5c7ab1;
+            color: #070707;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        #encabezado {
+            background-color: #000000;
+            padding: 10px 0;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        #menu ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        #menu ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .menu {
+            max-width: 1000px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .producto {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .producto img {
+            max-width: 150px;
+            max-height: 150px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+
+        .producto-details {
+            flex: 1;
+        }
+
+        .producto-nombre {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .producto-precio {
+            font-size: 18px;
+            font-weight: bold;
+            color: #050505;
+        }
+
+        .producto-ingredientes {
+            font-style: normal;
+            margin-top: 5px;
+        }
+        h4{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Menú del Restaurante</h1>
+    </header>
+
+    <div id="encabezado">
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="catalogo.html">Nuestros Productos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="menu">
+        <div class="producto">
+            <img src="img/pastor.jpg" alt="Plato 1">
+            <div class="product-details">
+                <h2 class="producto-name">Tacos al Pastor</h2>
+                <p class="producto-precio">$15 Pesos </p>
+                <p class="producto-ingredientes">Ingredientes: Tortilla de maiz, piña, carne de cerdo al pastor, cilantro, cebolla y limon</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/bistec.jpg" alt="Plato 2">
+            <div class="product-details">
+                <h2 class="producto-nombre">Taco de Bistec</h2>
+                <p class="producto-precio">$19 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Bistec de res, Tortilla de maiz, Cebolla, Cilantro y limon</p>
+            </div>
+        </div>
+
+        <div class="producto">
+            <img src="img/taquito-de-tripa.jpg" alt="Plato 3">
+            <div class="product-details">
+                <h2 class="producto-nombre">Taco de Tripa</h2>
+                <p class="producto-precio">$19 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Carne de Res, Tortilla de maiz, Chile, Cebolla, Cilantro y limon</p>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/chorizo.jpg" alt="Plato 4">
+            <div class="product-details">
+                <h2 class="producto-nombre">Taco de Chorizo</h2>
+                <p class="producto-precio">$16 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Chorizo, Tortilla de maiz, cilantro y limon</p>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/arrachera.jpg" alt="Plato 5">
+            <div class="product-details">
+                <h2 class="producto-nombre">Taco de Arrachera</h2>
+                <p class="producto-precio">$19 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Arrachera, Tortilla de maiz, Chile, Cebolla, Cilantro y limon</p>
+            </div>
+        </div>
+        <br>
+        <center><h4>Bebidas</h4></center>
+        <br>
+        <div class="producto">
+            <img src="img/agua-horchata.jpg" alt="Bebida 1">
+            <div class="product-details">
+                <h2 class="producto-nombre">Agua de Horchata 1 Litro</h2>
+                <p class="producto-precio">$30 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Arroz, Canela, Azucar, Hielo y Extracto de vainilla</p>
+            </div>
+        </div>
+        <div class="producto">
+            <img src="img/jamiaca.jpg" alt="Bebida 2">
+            <div class="product-details">
+                <h2 class="producto-nombre">Agua de Jamaica 1 Litro</h2>
+                <p class="producto-precio">$30 Pesos</p>
+                <p class="producto-ingredientes">Ingredientes: Flores de Jamaica, Hielo ,Agua y Azucar</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

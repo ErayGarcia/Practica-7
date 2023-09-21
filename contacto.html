@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Negocio</title>
+    <style>
+        /* Estilos para la barra de navegación */
+        body{
+            background-color: rgb(255, 255, 159);
+        }
+        #menu {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        #encabezado {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative; /* Agregamos position:relative para permitir el posicionamiento de la imagen */
+        }
+
+        #menu ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        #menu ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        #menu ul li:last-child {
+            margin-right: 0;
+        }
+
+        #menu ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Estilos para el cuadro de información */
+        #informacion {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 600px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #informacion h2 {
+            color: #333;
+        }
+
+        #informacion p {
+            margin: 10px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="encabezado"> 
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="catalogo.html">Nuestros Productos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
+    <section id="mapa">
+        <!-- Mapa de ubicación de Google Maps -->
+        <iframe
+            width="100%"
+            height="450"
+            frameborder="0"
+            style="border:0;"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14853.342536432098!2d-93.1162484!3d16.7538484!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd88c99efbf97%3A0x2d6b6b57bae447ef!2sEl%20Carrusel!5e0!3m2!1ses-419!2smx!4v1632292491285!5m2!1ses-419!2smx"
+            allowfullscreen=""
+            aria-hidden="false"
+            tabindex="0">
+        </iframe>
+    </section>
+    <section id="informacion">
+        <!-- Cuadro de información -->
+        <div>
+            <h2>Información de contacto</h2>
+            <p><strong>Dirección:</strong> Central Nte., Zona Sin Asignación de Nombre de Col 42, 29000 Tuxtla Gutiérrez, Chis.</p>
+            <p><strong>Correo Electrónico:</strong> Erayspinosa@gmail.com</p>
+            <p><strong>Teléfono:</strong> 961 600 0375</p>
+            <p><strong>Dueño:</strong> Eray Espinosa Garcia</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Taco Loco</p>
+    </footer>
+</body>
+</html>
